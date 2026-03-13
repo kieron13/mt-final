@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MagicTouch Digital | Premier Digital Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            teal: {
+              50: '#e6e7e8',
+              100: '#ccced1',
+              200: '#999da3',
+              300: '#666c75',
+              400: '#333b47',
+              500: '#01081B',
+              600: '#021033',
+              700: '#010510',
+              800: '#00030b',
+              900: '#000205',
+            },
+            emerald: {
+              50: '#f1f6f7',
+              100: '#e3edef',
+              200: '#c7dbdf',
+              300: '#abc9cf',
+              400: '#8fb7bf',
+              500: '#6FA3B0',
+              600: '#59828d',
+              700: '#43626a',
+              800: '#2c4146',
+              900: '#162123',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    html {
+      font-size: 1.1rem;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #020617;
+      color: #f8fafc;
+      margin: 0;
+      overflow-x: hidden;
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.03);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .glass-dark {
+      background: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    .ql-editor {
+      color: #000 !important;
+    }
+    .neon-glow {
+      box-shadow: 0 0 15px rgba(56, 189, 248, 0.4);
+    }
+    .neon-glow-text {
+      text-shadow: 0 0 10px rgba(56, 189, 248, 0.3);
+    }
+    
+    @keyframes spin-slow {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    .animate-spin-slow {
+      animation: spin-slow 8s linear infinite;
+    }
+
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #020617;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #1e293b;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #334155;
+    }
+
+    /* Custom font size override for product headers */
+    .text-6xl {
+      font-size: 2.75rem !important;
+    }
+    .py-7 {
+      padding-top: 1.5rem !important;
+      padding-bottom: 1.5rem !important;
+    }
+    @media (min-width: 768px) {
+      .md\:text-7xl {
+        font-size: 2.2rem;
+        line-height: 1;
+      }
+      .md\:text-8xl {
+        font-size: 4rem;
+        line-height: 0.9;
+      }
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.11.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "recharts": "https://esm.sh/recharts@^3.6.0",
+    "firebase/": "https://esm.sh/firebase@^12.7.0/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.34.0",
+    "xlsx": "https://esm.sh/xlsx@^0.18.5",
+    "@stripe/stripe-js": "https://esm.sh/@stripe/stripe-js@^8.6.4"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="./index.tsx"></script>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
+    

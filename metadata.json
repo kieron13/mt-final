@@ -1,0 +1,7 @@
+{
+  "name": "MAGIC TOUCH DIGITAL SHOP",
+  "description": "A sophisticated digital services e-commerce platform featuring glassmorphism design, full admin controls, Excel product imports, and automated invoicing.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
